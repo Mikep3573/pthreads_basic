@@ -254,7 +254,7 @@ int main() {
 
     printf("Are they the same?? %d\n", pInfo.numWritten == sum);
     
-    // For some reason, doesn't work on Windows 10 (my desktop)
+    // Use of POSIX makes this only work on Unix
     // Return 0 upon successful execution
     return 0;
 }
